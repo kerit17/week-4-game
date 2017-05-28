@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Crystal Game</title>
+		<!--Style Reset-->
+		<link rel="stylesheet" href="crystal_assets/css/crystal_reset.css">
+		<!--CSS-->
+		<link rel="stylesheet" href="crystal_assets/css/crystal_style.css">
+		<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+		<!--JavaScript-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script> 
+		<script type="text/javascript" src="crystal_assets/javascript/crystal_game.js"></script>
+	</head>
+
+	<body>
+		<div class="header">
+		<h1>Flower Collector</h1>
+		<hr>
+		</div>
+
+		<div class="instructions">
+			<h3>How to Play:</h3>
+			<p>You will be given a random number between 19 and 120 at the start of the game.  There are four flowers below. By clicking on a flower, you will add a specific amount of points to your total score.  You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.  The value of each flower is hidden from you until you click on it.  Each time the game starts, the game will change the value of each flower.</p>
+		</div>
+		<br>
+		<br>
+<div>
+	<div class="goal">
+		<h3>The Number to Guess is: </h3>
+		<hr>
+		<h2> <span id="random"></span></h2>
+	</div>
+	
+	<div class="userGuess">
+		<h3>Your total score: </h3>
+		<hr>
+		<h2><span id="newTotal"></span></h2>
+	</div>
+
+	<div class="winsCount">
+		<h2>Wins: <span id="numberWins"></span>
+		<br>
+		Losses: <span id="numberLosses"></span>
+		</h2>
+	</div>
+
+<br>
+
+	<div class="close-image">
+		<button><img src="crystal_assets/images/yellowFlower.jpg" id=yellow></button>
+
+		<button><img src="crystal_assets/images/blueFlower.png" id="blue"></button>
+
+		<button><img src="crystal_assets/images/orangeFlower.png" id="orange"></button>		
+
+		<button><img src="crystal_assets/images/purpleFlower.jpg" id="purple"></button>
+	</div>
+
+
+	</body>
+</html>

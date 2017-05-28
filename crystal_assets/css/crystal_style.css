@@ -1,0 +1,79 @@
+* {
+	background-color: #8AC0E7;
+	font-family: 'Bree Serif', serif;
+}
+
+.instructions {
+  border-style: solid;
+  border-color: white;
+}
+
+.goal {
+	border-style: double;
+	border-color: white;
+	width: 33%;
+	text-align: center;
+	height: 150px;
+	float: left;
+}
+
+.winsCount {
+	border-style: double;
+	border-color: white;
+	width: 33%;
+	text-align: center;
+	height: 150px;
+	float: left;
+}	
+
+.userGuess {
+	border-style: double;
+	border-color: white;
+	width: 33%;
+	text-align: center;
+	height: 150px;
+	float: left;
+}
+
+
+button {
+    display: inline-block;
+    height: 200px;
+	width: 20%;
+	margin: 25px;
+}
+
+.close-image img {
+    display: block;
+    height: 200px;
+    background-color: white;
+	width: 100%;
+}
+
+
+h1 {
+	color: #339966;
+	font-size: 36px;
+	font-weight: bolder;
+}
+
+h2 {
+	color: white;
+	font-size:32px;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+h3 {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-left: 5px;
+}
+
+p {
+	margin-left: 5px;
+	font-size: 20px;
+
+}
