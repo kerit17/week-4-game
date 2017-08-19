@@ -1,37 +1,40 @@
 * {
 	background-color: #8AC0E7;
 	font-family: 'Bree Serif', serif;
+	margin-right: 35px;
+	margin-left: 35px;
 }
 
 .instructions {
   border-style: solid;
   border-color: white;
+  margin-bottom: -18px;
 }
 
 .goal {
 	border-style: double;
 	border-color: white;
-	width: 33%;
+	width: 25%;
 	text-align: center;
-	height: 150px;
+	height: 100px;
 	float: left;
 }
 
 .winsCount {
 	border-style: double;
 	border-color: white;
-	width: 33%;
+	width: 25%;
 	text-align: center;
-	height: 150px;
+	height: 100px;
 	float: left;
 }	
 
 .userGuess {
 	border-style: double;
 	border-color: white;
-	width: 33%;
+	width: 25%;
 	text-align: center;
-	height: 150px;
+	height: 100px;
 	float: left;
 }
 
@@ -40,7 +43,7 @@ button {
     display: inline-block;
     height: 200px;
 	width: 20%;
-	margin: 25px;
+	margin: 18px;
 }
 
 .close-image img {
@@ -48,6 +51,7 @@ button {
     height: 200px;
     background-color: white;
 	width: 100%;
+	margin-left: -2px;
 }
 
 
@@ -59,14 +63,14 @@ h1 {
 
 h2 {
 	color: white;
-	font-size:32px;
+	font-size:30px;
 	font-weight: bold;
 	margin-top: 0px;
 }
 
 h3 {
 	color: white;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: bold;
 	margin-top: 0px;
 	margin-left: 5px;
